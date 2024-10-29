@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrical Engineering Simulations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .simulation-container {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Electrical Engineering Simulations</h1>
+    <a href="index.html" target="_parent">Back to main</a>
+
+    <div id="unit1" class="simulation-container">
+        <h2>Unit 1: Health, Safety and Environment</h2>
+        <div id="safetyGearSimulation"></div>
+    </div>
+
+    <div id="unit2" class="simulation-container">
+        <h2>Unit 2: Basic Electrical Principles</h2>
+        <div id="ohmsLawSimulation"></div>
+    </div>
+
+    <div id="unit3" class="simulation-container">
+        <h2>Unit 3: Basic Electronics</h2>
+        <div id="transistorSimulation"></div>
+    </div>
+
+    <div id="unit4" class="simulation-container">
+        <h2>Unit 4: Sources of Electrical Energy</h2>
+        <div id="energySourceSimulation"></div>
+    </div>
+
+    <div id="unit5" class="simulation-container">
+        <h2>Unit 5: Electrical Tools and Equipment</h2>
+        <div id="toolIdentificationSimulation"></div>
+    </div>
+
+    <div id="unit6" class="simulation-container">
+        <h2>Unit 6: Electrical Wiring Standards</h2>
+        <div id="wiringDiagramSimulation"></div>
+    </div>
+
+    <div id="unit7" class="simulation-container">
+        <h2>Unit 7: Multimeter</h2>
+        <div id="multimeterSimulation"></div>
+    </div>
+
+    <div id="unit8" class="simulation-container">
+        <h2>Unit 8: Insulation and Earth Resistance Testers</h2>
+        <div id="resistanceTestingSimulation"></div>
+    </div>
+
+    <div id="unit9" class="simulation-container">
+        <h2>Unit 9: Electrical Machines</h2>
+        <div id="electricalMachineSimulation"></div>
+    </div>
+
+    <div id="unit10" class="simulation-container">
+        <h2>Unit 10: Electrical Circuits</h2>
+        <div id="electricalCircuitSimulation"></div>
+    </div>
+
+    <div id="unit11" class="simulation-container">
+        <h2>Unit 11: Electrical Installations</h2>
+        <div id="electricalInstallationSimulation"></div>
+    </div>
+
+    <div id="unit12" class="simulation-container">
+        <h2>Unit 12: Electrical Maintenance</h2>
+        <div id="electricalMaintenanceSimulation"></div>
+    </div>
+
+    <div id="unit13" class="simulation-container">
+        <h2>Unit 13: Electrical Fault Finding</h2>
+        <div id="electricalFaultFindingSimulation"></div>
+    </div>
+
+    <div id="unit14" class="simulation-container">
+        <h2>Unit 14: Electrical Protection Systems</h2>
+        <div id="electricalProtectionSimulation"></div>
+    </div>
+
+    <div id="unit15" class="simulation-container">
+        <h2>Unit 15: Electrical Transformers</h2>
+        <div id="transformerSimulation"></div>
+    </div>
+
+    <div id="unit16" class="simulation-container">
+        <h2>Unit 16: Electrical Motors</h2>
+        <div id="motorSimulation"></div>
+    </div>
+
+    <div id="unit17" class="simulation-container">
+        <h2>Unit 17: Electrical Generators</h2>
+        <div id="generatorSimulation"></div>
+    </div>
+
+    <div id="unit18" class="simulation-container">
+        <h2>Unit 18: Electrical Power Distribution</h2>
+        <div id="powerDistributionSimulation"></div>
+    </div>
+
+    <div id="unit19" class="simulation-container">
+        <h2>Unit 19: Electrical Switchgear</h2>
+        <div id="switchgearSimulation"></div>
+    </div>
+
+    <div id="unit20" class="simulation-container">
+        <h2>Unit 20: Electrical Substations</h2>
+        <div id="substationSimulation"></div>
+    </div>
+
+    <div id="unit21" class="simulation-container">
+        <h2>Unit 21: Electrical Renewable Energy Systems</h2>
+        <div id="renewableEnergySimulation"></div>
+    </div>
+
+    <script src="sim.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('safetyGearSimulation').appendChild(safetyGearSimulation());
+            document.getElementById('ohmsLawSimulation').appendChild(ohmsLawSimulation());
+            document.getElementById('transistorSimulation').appendChild(transistorSimulation());
+            document.getElementById('energySourceSimulation').appendChild(energySourceSimulation());
+            document.getElementById('toolIdentificationSimulation').appendChild(toolIdentificationSimulation());
+            document.getElementById('wiringDiagramSimulation').appendChild(wiringDiagramSimulation());
+            document.getElementById('multimeterSimulation').appendChild(multimeterSimulation());
+            document.getElementById('resistanceTestingSimulation').appendChild(resistanceTestingSimulation());
+            document.getElementById('electricalMachineSimulation').appendChild(electricalMachineSimulation());
+            document.getElementById('electricalCircuitSimulation').appendChild(electricalCircuitSimulation());
+            document.getElementById('electricalInstallationSimulation').appendChild(electricalInstallationSimulation());
+            document.getElementById('electricalMaintenanceSimulation').appendChild(electricalMaintenanceSimulation());
+            document.getElementById('electricalFaultFindingSimulation').appendChild(electricalFaultFindingSimulation());
+            document.getElementById('electricalProtectionSimulation').appendChild(electricalProtectionSimulation());
+            document.getElementById('transformerSimulation').appendChild(transformerSimulation());
+            document.getElementById('motorSimulation').appendChild(motorSimulation());
+            document.getElementById('generatorSimulation').appendChild(generatorSimulation());
+            document.getElementById('powerDistributionSimulation').appendChild(powerDistributionSimulation());
+            document.getElementById('switchgearSimulation').appendChild(switchgearSimulation());
+            document.getElementById('substationSimulation').appendChild(substationSimulation());
+            document.getElementById('renewableEnergySimulation').appendChild(renewableEnergySimulation());
+        });
+    </script>
+</body>
+</html>
